@@ -14,11 +14,11 @@ function Ods() {
           Objetivo 15. Proteger, recuperar e promover o uso sustentável dos
           ecossistemas terrestres, gerir de forma sustentável as florestas,
           combater a desertificação, deter e reverter a degradação da terra e
-          deter a perda de biodiversidade
+          deter a perda de biodiversidade.
         </S.H2>
-        <S.H3>Taboão da Serra realiza campanha com programação ambiental</S.H3>
+        <S.H3>Taboão da Serra realiza campanha com programação ambiental.</S.H3>
 
-        <S.Img src={meioAmbiente} alt="" />
+        <S.Img src={meioAmbiente} alt="Foto mão com folhas verdes" />
         <p>
           A Prefeitura de Taboão da Serra, através da Secretaria de
           Desenvolvimento Urbano, Habitação e Meio Ambiente (SEHAB), promove
@@ -27,8 +27,8 @@ function Ods() {
           do Desenvolvimento Sustentável (ODS) - Agenda 2030 da Organização das
           Nações Unidas (ONU). Nesse sentido, a pasta realiza atividades
           direcionadas aos munícipes e servidores públicos, por meio dos
-          programas Saberes Ambientais, Refloresta Taboão, Plantar & Cuidar,
-          entre outras ações.{" "}
+          programas Saberes Ambientais, Refloresta Taboão, Plantar e Cuidar,
+          entre outras ações.
         </p>
       </S.DivInfo>
     );
@@ -40,7 +40,7 @@ function Ods() {
         <S.H2>Trabalho decente e crescimento econômico</S.H2>
         <S.H3>Taboão da Serra realiza campanha com programação ambiental</S.H3>
 
-        <S.Img src={TInf} alt="" />
+        <S.Img src={TInf} alt="Foto criança pedindo dineheiro" />
         <p>
           A Prefeitura de Taboão da Serra através da Secretaria de Assistência
           Social e Cidadania realiza a campanha “Não ao trabalho em infantil,
@@ -60,20 +60,20 @@ function Ods() {
       </S.DivInfo>
 
       <S.DivImgs>
-        {/*button ODS */}
+        
         <S.Button
           onClick={() => {
             setOds(!ods);
           }}
         >
           {ods === true ? (
-            <S.Img src="https://odsbrasil.gov.br/content/ods/15.png" alt="" />
+            <S.Img src="https://odsbrasil.gov.br/content/ods/15.png" alt="foto logo vida terrestre" />
           ) : (
-            <S.Img src="https://odsbrasil.gov.br/content/ods/15.png" alt="" />
+            <S.Img src="https://odsbrasil.gov.br/content/ods/15.png" alt="foto logo vida terrestre" />
           )}
         </S.Button>
 
-        {/*button ODS2 */}
+       
         <S.Button
           onClick={() => {
             setOds2(!ods2);
@@ -82,12 +82,12 @@ function Ods() {
           {ods2 === true ? (
             <S.ImgTwo
               src="https://brasil.un.org/profiles/undg_country/themes/custom/undg/images/SDGs/pt-br/SDG-8.svg"
-              alt=""
+              alt="foto logo trabalho decente"
             />
           ) : (
             <S.ImgTwo
               src="https://brasil.un.org/profiles/undg_country/themes/custom/undg/images/SDGs/pt-br/SDG-8.svg"
-              alt=""
+              alt="foto logo trabalho decente"
             />
           )}
         </S.Button>

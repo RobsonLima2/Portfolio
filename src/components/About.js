@@ -34,7 +34,7 @@ function About() {
             <a href="https://www.instagram.com/robynnho/">
               <S.ImgIconI>{Instagran}</S.ImgIconI>
             </a>
-            {/* <S.ImgIconI>{Instagran}</S.ImgIconI> */}
+            
           </S.Icons>
         </div>
         <S.ContainerH4>
