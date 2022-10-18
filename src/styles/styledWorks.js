@@ -10,6 +10,7 @@ export const ContainerW = styled.section`
   @media (max-width: 950px) {
     flex-direction: column;
     align-items: center;
+    margin: auto 0;
   }
 `;
 
@@ -23,6 +24,16 @@ export const BoxOne = styled.div`
   position: relative;
   margin-left: 20px;
   border-radius: 15%;
+
+  @media (max-width: 780px) {
+    width: 400px;
+    height: 380px;
+  }
+
+  @media (max-width: 390px) {
+    width: 200px;
+    height: 170px;
+  }
 `;
 
 export const ImgBox = styled.img`

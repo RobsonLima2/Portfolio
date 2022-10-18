@@ -26,11 +26,22 @@ export const BoxAbout = styled.div`
   }
 `;
 
-export const H4 = styled.h4`
-  text-align: center;
+export const ImgAbout = styled.img`
+  width: 335px;
+  height: 250px;
+  border-radius: 50%;
+  border: solid 2px yellow;
+  object-fit: cover;
 
   @media (max-width: 1080px) {
-    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  @media (max-width: 360px) {
+    margin: auto;
+    width: 235px;
+    height: 230px;
   }
 `;
 
@@ -47,17 +58,17 @@ export const Icons = styled.div`
   font-size: 2rem;
 `;
 
-export const ImgAbout = styled.img`
-  width: 335px;
-  height: 250px;
-  border-radius: 50%;
-  border: solid 2px yellow;
-  object-fit: cover;
+export const ImgIcon = styled.i`
+  color: white;
+  font-size: 2rem;
+`;
 
-  @media (max-width: 1080px) {
-    margin: auto;
-    margin-bottom: 20px;
-  }
+export const ImgIconL = styled.i`
+  color: #0e76a8;
+`;
+
+export const ImgIconI = styled.i`
+  color: #bc2a8d;
 `;
 
 export const ContainerH4 = styled.div`
@@ -73,22 +84,27 @@ export const ContainerH4 = styled.div`
   @media (max-width: 1080px) {
     margin-left: 0;
     width: 650px;
+    margin: auto;
   }
 
   @media (max-width: 680px) {
     font-size: 1.5rem;
     width: 350px;
+    margin: auto;
+  }
+
+  @media (max-width: 360px) {
+    margin: auto;
+    font-size: 1.3rem;
   }
 `;
 
-export const Linha = styled.div`
-  background-color: white;
-  width: 60px;
-  height: 8px;
+export const H4 = styled.h4`
   text-align: center;
-  margin-top: 15px;
-  border-radius: 10px;
-  margin-bottom: 34.5px;
+
+  @media (max-width: 1080px) {
+    text-align: center;
+  }
 `;
 
 export const BoxSkill = styled.div`
@@ -113,23 +129,20 @@ export const BoxSkill = styled.div`
   }
 `;
 
+export const Linha = styled.div`
+  background-color: white;
+  width: 60px;
+  height: 8px;
+  text-align: center;
+  margin-top: 15px;
+  border-radius: 10px;
+  margin-bottom: 34.5px;
+`;
+
 export const IconSkill = styled.i`
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
   border-radius: 50%;
-`;
-
-export const ImgIcon = styled.i`
-  color: white;
-  font-size: 2rem;
-`;
-
-export const ImgIconL = styled.i`
-  color: #0e76a8;
-`;
-
-export const ImgIconI = styled.i`
-  color: #bc2a8d;
 `;

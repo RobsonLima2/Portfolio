@@ -6,7 +6,6 @@ import {
   DiGithubBadge,
   DiReact,
   DiHtml5,
-  DiGithub,
   DiJavascript
 } from "react-icons/di";
 
@@ -34,7 +33,6 @@ function About() {
             <a href="https://www.instagram.com/robynnho/">
               <S.ImgIconI>{Instagran}</S.ImgIconI>
             </a>
-            
           </S.Icons>
         </div>
         <S.ContainerH4>

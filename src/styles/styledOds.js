@@ -10,7 +10,6 @@ export const DivInfo = styled.div`
 export const H2 = styled.h2`
   margin-top: 20px;
   margin-bottom: 20px;
-  text-align: center;
 `;
 
 export const H3 = styled.h3`
