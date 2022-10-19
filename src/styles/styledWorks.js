@@ -25,9 +25,9 @@ export const BoxOne = styled.div`
   margin-left: 20px;
   border-radius: 15%;
 
-  @media (max-width: 780px) {
-    width: 400px;
-    height: 380px;
+  @media (max-width: 820px) {
+    width: 460px;
+    height: 400px;
   }
 
   @media (max-width: 390px) {
